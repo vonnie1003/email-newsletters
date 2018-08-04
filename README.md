@@ -4,7 +4,7 @@ Create great-looking, customisable and mobile-friendly email newsletters.
 
 ## Just use it
 
-TODO
+[Click here](https://elegant-mahavira-9c7233.netlify.com/)
 
 ## Developing
 
