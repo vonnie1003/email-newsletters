@@ -1,0 +1,170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body bgcolor="{{pageBackgroundColour}}" topmargin="0" leftmargin="0" marginheight="0" marginwidth="0">
+<style>
+    body {
+        background-color: {{pageBackgroundColour}};
+    }
+
+    hr {
+        padding: 0;
+        border: none;
+        background-color: {{horizontalLineColour}};
+        height: {{horizontalLineThickness}}px;
+        margin: {{horizontalLineVerticalSpacing}}px {{horizontalLineHorizontalSpacing}}px;
+    }
+
+    div.content-container {
+        font-size: {{bodySize}}px;
+        font-family: {{bodyFontFace}};
+        color: {{bodyColour}};
+        padding: {{bodyVerticalPadding}}px {{bodyHorizontalPadding}}px;
+    }
+
+    h1 {
+        font-size: {{heading1Size}}px;
+        margin-top: {{heading1SpaceAbove}}px;
+        color: {{heading1Colour}};
+        font-family: {{headingsFontFace}};
+        text-align: {{heading1Alignment}};
+    }
+
+    h2 {
+        font-size: {{heading2Size}}px;
+        margin-top: {{heading2SpaceAbove}}px;
+        color: {{heading2Colour}};
+        font-family: {{headingsFontFace}};
+        text-align: {{heading2Alignment}};
+    }
+
+    h3 {
+        font-size: {{heading3Size}}px;
+        margin-top: {{heading3SpaceAbove}}px;
+        color: {{heading3Colour}};
+        font-family: {{headingsFontFace}};
+        text-align: {{heading3Alignment}};
+    }
+
+    h4 {
+        font-size: {{heading4Size}}px;
+        margin-top: {{heading4SpaceAbove}}px;
+        color: {{heading4Colour}};
+        font-family: {{headingsFontFace}};
+        text-align: {{heading4Alignment}};
+    }
+
+    a {
+        color: {{linkColour}};
+    }
+
+    p.email-title {
+        font-family: {{titleFontFace}};
+        text-align: {{titleAlignment}};
+        font-size: {{titleSize}}px;
+        margin: {{titleSpaceAbove}}px {{titleSpaceRight}}px {{titleSpaceBelow}}px {{titleSpaceLeft}}px;
+        color: {{titleColour}};
+        font-weight: bold;
+
+    }
+
+    div.logo-container {
+        background-color: {{logoContainerBackgroundColour}};
+        padding: {{logoVerticalSpacing}}px {{logoHorizontalSpacing}}px;
+        text-align: center;
+    }
+
+    table.footer-table {
+        background-color: {{footerBackgroundColour}};
+        border-top: solid;
+        border-width: {{bodyFooterDividerLineThickness}}px;
+        border-color: {{bodyFooterDividerLineColour}};
+    }
+
+    div.footer-text-container {
+        text-align: {{footerTextAlignment}};
+        padding: {{footerVerticalPadding}}px {{footerHorizontalPadding}}px;
+        font-size: {{footerTextSize}}px;
+        font-family: {{footerFontFace}};
+        color: {{footerTextColour}};
+    }
+
+    div.footer-social-media-icons-container {
+        padding: {{footerVerticalPadding}}px {{footerHorizontalPadding}}px 0;
+    }
+</style>
+<table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="{{pageBackgroundColour}}">
+    <tbody>
+    <tr>
+        <td bgcolor="{{pageBackgroundColour}}" width="100%">
+            <table width="{{containerWidth}}" cellpadding="0" cellspacing="0" border="0" align="center">
+                <tbody>
+                <tr>
+                    <td width="{{containerWidth}}">
+                        <table width="{{containerWidth}}" cellpadding="0" cellspacing="0" border="0">
+                            <tbody>
+                            <tr>
+                                <td bgcolor="{{contentBackgroundColour}}" width="{{containerWidth}}">
+                                    <div class="logo-container">
+                                        <img width="{{logoWidth}}" alt="logo"
+                                             src="{{logoImageUrl}}"
+                                        >
+                                    </div>
+                                    <div class="content-container">
+                                        <p class="email-title">{{title}}</p>
+                                        {{contentHtml}}
+                                    </div>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="100%">
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0"
+                               bgcolor="{{footerBackgroundColour}}" class="footer-table">
+                            <tbody>
+                            <tr>
+                                <td align="center">
+                                    <div class="footer-social-media-icons-container">
+                                        <table cellpadding="0" cellspacing="10" border="0" align="center" class="table">
+                                            <tbody>
+                                            <tr>
+                                                {{socialMediaItems}}
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="footer-text-container">
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center"
+                                               class="table" bgcolor="{{footerBackgroundColour}}">
+                                            <tbody>
+                                            <tr>
+                                                <td width="100%">
+                                                    {{footerHtml}}
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

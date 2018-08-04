@@ -1,0 +1,27 @@
+{
+  "name": "email-newsletters",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "marked": "^0.4.0",
+    "prop-types": "^15.6.2",
+    "rc-color-picker": "^1.2.6",
+    "rc-dropdown": "^2.2.0",
+    "rc-menu": "^7.2.6",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-icons": "^2.2.7",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "eslint": "^5.2.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "prettier": "1.13.7"
+  }
+}
