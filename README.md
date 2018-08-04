@@ -13,7 +13,7 @@ How to get this running locally on your machine for development.
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/en/)
-e
+
 ### Installing
 
 ```$bash
@@ -28,7 +28,9 @@ npm start
 
 ### with Netlify
 
-TODO
+Deploy your own copy of this - click the button and follow the instructions. It's relatively straightforward.
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Imperial-CU/email-newsletters)
 
 ### D.I.Y.
 
