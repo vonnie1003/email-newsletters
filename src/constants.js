@@ -31,8 +31,7 @@ export const defaultParams = {
 
   /*--- Logo ---*/
   logoImageUrl:
-    "https://scontent-lhr3-1.xx.fbcdn.net/v/t1.0-9/20882811_1554997611205041_5576673317142177434_n.png" +
-    "?_nc_cat=0&oh=392a0355b68d24aa869a4415d205240c&oe=5BE08453",
+    "https://raw.githubusercontent.com/Imperial-CU/email-newsletters/imperial-cu/public/logo.png",
   logoWidth: 200,
 
   /*--- Footer ---*/
