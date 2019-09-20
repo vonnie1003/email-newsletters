@@ -8,7 +8,7 @@ function FooterMarkdownEditor({ setFooterMarkdown }) {
   return (
     <Fragment>
       <label htmlFor="footerMarkdownEditor">Footer text (markdown)</label>
-      <textarea
+      <textarea>To unsubscribe from this mailing list, please click [here.](http://lists.iccu.co.uk/mailman/listinfo/iccumail)</textarea>
         className="u-full-width"
         placeholder={placeholderText}
         id="footerMarkdownEditor"
